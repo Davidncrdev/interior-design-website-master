@@ -4,13 +4,18 @@ import Button from "./button.tsx";
 const ContactForm = () => {
   return (
     <div className="col-span-1 lg:col-span-2">
-      <form className="w-full grid grid-cols-2 gap-x-10 gap-y-[50px]">
+      <form
+        action="https://formspree.io/f/xgvebyjl"
+        method="POST"
+        className="w-full grid grid-cols-2 gap-x-10 gap-y-[50px]"
+      >
         <label htmlFor="name">
           <input
             type="text"
             name="name"
             className="col-span-1 border-b w-full border-black outline-none py-3 text-base lg:text-[22px] lg:leading-[33px] tracking-tight font-jost text-text-gray"
             placeholder="Name"
+            required
           />
         </label>
         <label htmlFor="email">
@@ -19,6 +24,7 @@ const ContactForm = () => {
             name="email"
             className="col-span-1 border-b w-full border-black outline-none py-3 text-base lg:text-[22px] lg:leading-[33px] tracking-tight font-jost text-text-gray"
             placeholder="Email"
+            required
           />
         </label>
         <label htmlFor="subject">
@@ -43,6 +49,7 @@ const ContactForm = () => {
           cols={30}
           rows={10}
           placeholder="Hello, I am interested in..."
+          required
         ></textarea>
 
         <div className="w-full flex justify-end col-span-2">

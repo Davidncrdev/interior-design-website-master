@@ -33,45 +33,45 @@ const Footer = () => {
         </div>
         <div className="col-span-1 flex flex-col gap-4">
           <h5 className="text-primary-200 font-dm text-[22px] lg:text-[25px] leading-loose">
-            Pages
+            Paginas
           </h5>
           <div className="flex flex-col gap-6">
             <a
               href="/about"
               className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray"
             >
-              About Us
+              Sobre nosotros
             </a>
             <a
               href="/services"
               className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray"
             >
-              Services
+              servicios
             </a>
             <a
               href="/contact"
               className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray"
             >
-              Contact Us
+              Contactanos
             </a>
           </div>
         </div>
         <div className="col-span-1 flex flex-col gap-4">
           <h5 className="text-primary-200 font-dm text-[22px] lg:text-[25px] leading-loose">
-            Services
+            Servicios
           </h5>
           <div className="flex flex-col gap-6">
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              Kitchen
+              Paginas web
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              Living Room
+              RRSS
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              Dining Hall
+              Marca personal
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              Bedroom
+              Marketing digital
             </p>
           </div>
         </div>
@@ -81,13 +81,13 @@ const Footer = () => {
           </h5>
           <div className="flex flex-col gap-6">
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              55 East Birchwood Ave. Brooklyn, New York 11201
+              Parque teconologico de andaluciia (PTA) Malaga, Espana
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              contact@interno.com
+              contact@alturacreativa.com
             </p>
             <p className="tracking-tight text-base lg:text-[22px] lg:leading-[33px] font-jost text-text-gray">
-              (123) 456 - 7890
+              (+34) 641437667
             </p>
           </div>
         </div>
